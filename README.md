@@ -4,7 +4,7 @@
 }
 {\*\expandedcolortbl;;\cssrgb\c3922\c3922\c3922;\cssrgb\c99608\c99608\c99608;\cssrgb\c0\c0\c0;
 }
-\paperw11900\paperh16840\margl1440\margr1440\vieww35640\viewh22400\viewkind0
+\paperw11900\paperh16840\margl1440\margr1440\vieww34780\viewh20780\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
 \f0\fs24 \cf0 \expnd0\expndtw0\kerning0
@@ -16,7 +16,7 @@ This repository contains the code and data needed to reproduce the figures and a
 \
 - **/inputs/**: Contains behavioral data, functional connectomes, and motion parameters. Due to ethical reasons, raw (f)MRI data cannot be publicly shared. However:\
   - **ADNI dataset**: Raw data supporting this study can be accessed via the Alzheimer's Disease Neuroimaging Initiative (ADNI) platform (https://adni.loni.usc.edu/).\
-  - **Geneva site data**: Raw data generated at the Geneva site are available upon request from Prof. Giovanni B. Frisoni (\cf2 \cb3 \outl0\strokewidth0 \strokec2 giovanni.frisoni@hcuge.ch)\cf0 \cb1 \outl0\strokewidth0 \
+  - **Geneva site data**: Raw data generated at the Geneva site are available upon request from Prof. Giovanni B. Frisoni (\cf2 \cb3 giovanni.frisoni@hcuge.ch)\cf0 \cb1 \
 \
 - **/scripts/**: Contains scripts to reproduce the results, including tables, figures, and analyses. Each script is named `batch_#_title`, indicating the execution order (e.g., `batch_1_title`, `batch_2_title`, ... , `batch_10_title`). Refer to the script titles for overview of the outputted content. \
 \
@@ -36,12 +36,13 @@ Ensure you have the following software installed before running the scripts:\
 1. **Clone the Repository**:\
    ```bash\
    git clone [repository URL] \
+   ```\
+2. Download BrainNetViewer and matlab_nifti and place it inside `functions/`.\
 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 ## Contact information\
+## Contact information\
 \
 \pard\pardeftab720\partightenfactor0
-\cf0 \outl0\strokewidth0 \strokec4 For questions or issues, you can contact the author: Sara Stampacchia at sara.stampacchia@gmail.com.\outl0\strokewidth0 \
+\cf0 For questions or issues, you can contact the author: Sara Stampacchia at sara.stampacchia@gmail.com.\
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 \cf0 \
 \
