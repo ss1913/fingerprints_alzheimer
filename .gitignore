@@ -1,3 +1,8 @@
 .DS_Store
 .Rhistory
 .RData
+
+# external functions
+functions/BrainNetViewer/
+functions/toolbox_matlab_nifti/
+
