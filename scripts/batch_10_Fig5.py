@@ -16,7 +16,7 @@ def get_order(data, threshold):
     return heatmap_order
 
 # Define data path
-data_path = '../functions/neurosynth/data_neurosynth'
+data_path = '../functions/data_neurosynth'
 
 # Load dataset
 pickled_dataset = os.path.join(data_path, 'dataset.pkl')
