@@ -1,3 +1,5 @@
+#This code was adapted from https://github.com/gpreti/GSP_StructuralDecouplingIndex/blob/master/Code_NCOMMS/Python/05_metaanalysis_neurosynth_myanalysis.ipynb
+#If you use this code please cite the repository and/or associated paper
 import os
 from neurosynth.base.dataset import Dataset
 from neurosynth.analysis import decode

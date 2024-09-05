@@ -29,7 +29,7 @@ Ensure you have the following software installed before running the scripts:
    git clone [repository URL] 
    ```
 2. For brain renders visualisation download BrainNetViewer [https://www.nitrc.org/projects/bnv/] and matlab_nifti [https://github.com/fieldtrip/fieldtrip/tree/master/external/freesurfer] and place it inside `functions/`.
-3. For Neurosynth decoder download data from this Github repository [https://github.com/gpreti/GSP_StructuralDecouplingIndex/tree/master/Code_NCOMMS/Python/database_feb_2015] and place it inside `functions/`.
+3. For Neurosynth decoder download data from this Github repository [https://github.com/gpreti/GSP_StructuralDecouplingIndex/tree/master/Code_NCOMMS/Python/database_feb_2015] and place it inside `functions/data_neurosynth`.
 
 ## Contact information
 For questions or issues, you can contact the author: Sara Stampacchia at sara.stampacchia@gmail.com.
