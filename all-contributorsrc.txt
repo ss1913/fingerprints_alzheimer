@@ -1,0 +1,50 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "ss1913",
+      "name": "Sara Stampacchia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69032994?v=4",
+      "profile": "https://github.com/ss1913"
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "research"
+      ]
+    },
+    {
+      "login": "juancarlosfarah",
+      "name": "Juan Carlos Farah",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1707188?v=4",
+      "profile": "https://juancarlosfarah.com",
+      "contributions": [
+        "doc",
+      ]
+    },
+    {
+      "login": "eamico",
+      "name": "Enrico Amico",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6409808?v=4",
+      "profile": "https://miplab.epfl.ch/index.php/people/eamico",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "research"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "fingerprints_alzheimers",
+  "projectOwner": "ss1913"
+}
