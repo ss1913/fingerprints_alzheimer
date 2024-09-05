@@ -20,9 +20,12 @@ def get_order(data, threshold):
 # Define data path
 data_path = '../functions/data_neurosynth'
 
-# Load dataset
-pickled_dataset = os.path.join(data_path, 'dataset.pkl')
-dataset = Dataset.load(pickled_dataset)
+# Create a new Dataset instance
+dataset = Dataset(os.path.join(data_path,'database.txt'))
+# Add some features
+dataset.add_features(os.path.join(data_path,'features.txt'))
+dataset.save(os.path.join(data_path,'dataset.pkl'))
+
 
 # Load features
 features = pd.read_csv(os.path.join(data_path, 'v3-topics-50.txt'), sep='\t', index_col=0)

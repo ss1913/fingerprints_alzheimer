@@ -6,7 +6,7 @@ authors:
   orcid: "https://orcid.org/0000-0001-9545-3376"
 - family-names: "Asadi"
   given-names: "Saina"
-  orcid: TBA
+  orcid: "https://orcid.org/0009-0004-0493-8570"
 - family-names: "Tomczyk"
   given-names: "Szymon"
   orcid: "https://orcid.org/0000-0002-2283-3156"
@@ -58,7 +58,7 @@ preferred-citation:
     orcid: "https://orcid.org/0000-0001-9545-3376"
   - family-names: "Asadi"
     given-names: "Saina"
-    orcid: TBA
+    orcid: "https://orcid.org/0009-0004-0493-8570"
   - family-names: "Tomczyk"
     given-names: "Szymon"
     orcid: "https://orcid.org/0000-0002-2283-3156"
