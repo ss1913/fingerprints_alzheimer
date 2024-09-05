@@ -20,6 +20,7 @@ Ensure you have the following software installed before running the scripts:
 - **MATLAB**: Version R2022A or above.
 - **Python**: Version 3.7.0 or above.
 - **RStudio**: Version 2022.07.2 or above.
+- **SPM12**
 
 ## How to Run the Scripts
 
@@ -27,10 +28,10 @@ Ensure you have the following software installed before running the scripts:
    ```bash
    git clone [repository URL] 
    ```
-2. Download BrainNetViewer and matlab_nifti and place it inside `functions/`.
+2. For brain renders visualisation download BrainNetViewer [https://www.nitrc.org/projects/bnv/] and matlab_nifti [https://github.com/fieldtrip/fieldtrip/tree/master/external/freesurfer] and place it inside `functions/`.
+3. For Neurosynth analyses ....
 
 ## Contact information
-
 For questions or issues, you can contact the author: Sara Stampacchia at sara.stampacchia@gmail.com.
 
 
