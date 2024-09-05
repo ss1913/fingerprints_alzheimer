@@ -31,6 +31,11 @@ Ensure you have the following software installed before running the scripts:
 2. For brain renders visualisation download BrainNetViewer [https://www.nitrc.org/projects/bnv/] and matlab_nifti [https://github.com/fieldtrip/fieldtrip/tree/master/external/freesurfer] and place it inside `functions/`.
 3. For Neurosynth decoder download data from this Github repository [https://github.com/gpreti/GSP_StructuralDecouplingIndex/tree/master/Code_NCOMMS/Python/database_feb_2015] and place it inside `functions/data_neurosynth`.
 
+## Notes
+To enable users to run the code more quickly, we have reduced the number of runs from 1,000 to 10 in the scripts `batch_4_Fig3` and `batch_7_FigS3` (original running times were approximately 8 hours and 4 hours, respectively). 
+If users wish to regenerate the main figures of the manuscript without performing 1,000 runs, they can access the precomputed outputs used for generating these figures at this link 
+[https://osf.io/h97fv/?view_only=0bb7a2616bb54bca9432e3f8d1da7d96].  
+
 ## Contact information
 For questions or issues, you can contact the author: Sara Stampacchia at sara.stampacchia@gmail.com.
 
