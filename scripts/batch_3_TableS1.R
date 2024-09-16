@@ -5,7 +5,7 @@ library(permuco)
 library(emmeans)
 
 # Set paths 
-path <- file.path("/Users/sara/Desktop/Projects/ExternalCollaborations/1_Fingerprinting_AD/repo/outputs/") # change this accordingly to where your outputs path is located 
+path <- file.path("/Users/sara/Library/CloudStorage/GoogleDrive-sara.stampacchia@gmail.com/My Drive/1_Work/2_ResearchProjects/3.PostDoc_Geneva/1_Projects/2_Fingerprinting_AD/repo/fingerprints_alzheimer/outputs_manuscript") # change this accordingly to where your outputs path is located 
 setwd(path)
 
 process_dataset <- function(prefix) {
@@ -48,11 +48,12 @@ process_dataset <- function(prefix) {
   }
   
   # Post-hoc pairwise comparisons for Iothers
-  pwc <- data_iothers %>%
-    emmeans_test(
-      Iothers ~ Group, covariate = FD,
-      p.adjust.method = "bonferroni"
-    )
+    pwc <- data_iothers %>%
+      emmeans_test(
+        Iothers ~ Group, covariate = FD,
+        p.adjust.method = "bonferroni"
+      )
+  
   
   return(list(
     iself_outliers = iself_outliers, 
