@@ -1,6 +1,6 @@
 # Reproduction of Results for “Fingerprints of Brain Disease: Connectome Identifiability in Alzheimer’s Disease“
 
-This repository contains the code and data needed to reproduce the figures and analyses presented in the manuscript [add DOI here].
+This repository contains the code and data needed to reproduce the figures and analyses presented in the manuscript [https://doi.org/10.1038/s42003-024-06829-8]
 
 ## Repository Structure
 

@@ -28,9 +28,9 @@ authors:
 - family-names: "Preti"
   given-names: "Maria Giulia"
   orcid: "https://orcid.org/0000-0002-5323-5327"
-- family-names: "Unshuld"
+- family-names: "Unschuld"
   given-names: "Paul G."
-  orcid: NA
+  orcid: "http://orcid.org/0000-0002-6116-3386"
 - family-names: "Van De Ville"
   given-names: "Dimitri"
   orcid: "https://orcid.org/0000-0002-9745-3983"
@@ -48,7 +48,7 @@ authors:
   orcid: "https://orcid.org/0000-0001-6705-9689"
 title: "Fingerprints of brain disease: connectome identifiability in Alzheimer’s disease"
 version: 1.0.0
-date-released: 2024-09-XX
+date-released: 2024-09-18
 url: "https://github.com/ss1913/fingerprints_alzheimer/"
 preferred-citation:
   type: article
@@ -80,9 +80,9 @@ preferred-citation:
   - family-names: "Preti"
     given-names: "Maria Giulia"
     orcid: "https://orcid.org/0000-0002-5323-5327"
-  - family-names: "Unshuld"
+  - family-names: "Unschuld"
     given-names: "Paul G."
-    orcid: NA
+    orcid: "http://orcid.org/0000-0002-6116-3386"
   - family-names: "Van De Ville"
     given-names: "Dimitri"
     orcid: "https://orcid.org/0000-0002-9745-3983"
@@ -98,13 +98,11 @@ preferred-citation:
   - family-names: "Amico"
     given-names: "Enrico"
     orcid: "https://orcid.org/0000-0001-6705-9689"
-  doi: "TBA"
+  doi: https://doi.org/10.1038/s42003-024-06829-8 
   journal: "Communications Biology"
-  start: 1 (?)
-  end: 54 (?)
+  start: 1
+  end: 16
   title: "Fingerprints of brain disease: connectome identifiability in Alzheimer’s disease"
   publisher: "Nature Portfolio"
-  location:
-    name: "Cambridge MA, United States" ???
   year: 2024
-  month: 11 (?)
+  month: 09
